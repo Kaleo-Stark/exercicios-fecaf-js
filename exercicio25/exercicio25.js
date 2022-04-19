@@ -5,3 +5,5 @@ o programa deve imprimir os caracteres "###" no lugar dos números divisíveis p
 let contador = 0;
 
 while(contador < 200) console.log(++contador % 20 != 0 ? contador : '###');
+
+//Array.from({ length: 200 }).forEach((_,i) => console.log(i % 20 != 0 ? contador : '###'));
